@@ -1,7 +1,7 @@
 import requests
 from pyrogram import filters
 
-from KNMusic import app
+from DanteMusic import app
 
 truth_api_url = "https://api.truthordarebot.xyz/v1/truth"
 dare_api_url = "https://api.truthordarebot.xyz/v1/dare"
