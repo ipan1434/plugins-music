@@ -2,7 +2,7 @@ from pyrogram import filters
 from TheApi import api
 
 from config import LOG_GROUP_ID
-from KNMusic import app
+from DanteMusic import app
 from SafoneAPI import SafoneAPI
 
 
