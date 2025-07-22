@@ -31,8 +31,8 @@ from KNMusic.utils.database import (
     get_playmode,
     get_playtype,
 )
-from KNMusic.utils.logger import play_logs
-from KNMusic.utils.stream.stream import stream
+from DanteMusic.utils.logger import play_logs
+from DanteMusic.utils.stream.stream import stream
 
 RADIO_STATION = {
     "Air Bilaspur": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio110/playlist.m3u8",
