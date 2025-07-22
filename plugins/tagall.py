@@ -4,7 +4,7 @@ from pyrogram.enums import ChatMembersFilter
 
 from pyrogram.errors import FloodWait
 
-from KNMusic import app
+from DanteMusic import app
 
 
 SPAM_CHATS = []
