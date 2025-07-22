@@ -11,10 +11,10 @@ from pyrogram.types import (
     InlineKeyboardMarkup,
 )
 
-from KNMusic import app
-from KNMusic.misc import SUDOERS
+from DanteMusic import app
+from DanteMusic.misc import SUDOERS
 from .notes import extract_urls
-from KNMusic.utils.database import is_gbanned_user
+from DanteMusic.utils.database import is_gbanned_user
 
 from utils import (
     del_welcome,
@@ -23,8 +23,8 @@ from utils import (
 )
 
 from utils.error import capture_err
-from KNMusic.utils.functions import check_format, extract_text_and_keyb
-from KNMusic.utils.keyboard import ikb
+from DanteMusic.utils.functions import check_format, extract_text_and_keyb
+from DanteMusic.utils.keyboard import ikb
 from utils.permissions import adminsOnly
 
 
